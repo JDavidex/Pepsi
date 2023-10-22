@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section class="section">
+
+        <!-- Header -->
+        <header>
+            <a href="https://www.pepsi.com/"><img src="assets/images/logo.png" alt="Pepsi Logo" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="nav">
+                <li><a href="#">VIEW PRODUCTS</a></li>
+                <li><a href="#">WHAT'S NEW</a></li>
+                <li><a href="#">NEWSLETTER</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </header>
+        <!-- /Header -->
+
+        <!-- Content -->
+        <div class="content">
+            <div class="txtBox">
+                <h2>THAT'S WHAT<br><span>I LIKE<sup>&circledR;</sup></span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni facere quos! Deleniti sint
+                    mollitia cupiditate amet, quasi repellendus perferendis molestias veritatis dolorum modi possimus
+                    eligendi voluptatum delectus rerum facere.</p>
+                <a href="#">BUY PEPSI PRODUCTS</a>
+            </div>
+            <div class="imgBox">
+                <img src="assets/images/products/can-pepsi-wild-cherry.png" alt="CAN PEPSI" class="pepsi">
+            </div>
+        </div>
+        <!-- /Content -->
+
+        <!-- Shortcuts -->
+        <ul class="shortcut">
+            <li><img src="assets/images/products/can-pepsi-wild-cherry.png" alt="PEPSI WILD CHERRY"
+                    onclick="imgSlider('assets/images/products/can-pepsi-wild-cherry.png');changeBgColor('#0065c3')">
+            </li>
+            <li><img src="assets/images/products/can-diet-pepsi-wild-cherry.png" alt="DIET PEPSI WILD CHERRY"
+                    onclick="imgSlider('assets/images/products/can-diet-pepsi-wild-cherry.png');changeBgColor('#878787')">
+            </li>
+            <li><img src="assets/images/products/can-pepsi-zero-sugar-wild-cherry.png"
+                    alt="PEPSI ZERO SUGAR WILD CHERRY"
+                    onclick="imgSlider('assets/images/products/can-pepsi-zero-sugar-wild-cherry.png');changeBgColor('#D02476FA')">
+            </li>
+        </ul>
+        <!-- /Shortcuts -->
+
+        <!-- Social Networks -->
+        <ul class="social">
+            <li><a href="#"><img src="assets/images/social/facebook.svg" alt="Facebook Icon"></a></li>
+            <li><a href="#"><img src="assets/images/social/twitter.svg" alt="Twitter Icon"></a></li>
+            <li><a href="#"><img src="assets/images/social/instagram.svg" alt="Instagram Icon"></a></li>
+        </ul>
+        <!-- /Social Networks -->
+    </section>
+
+    <!-- JS -->
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>
